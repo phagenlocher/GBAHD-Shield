@@ -1,7 +1,9 @@
 # gbaHD Shield
 This is a shield for the [gbaHD project](https://github.com/zwenergy/gbaHD).  
 
-Has the following features.
+This particular fork does change certain parts, but does not add any new features.
+
+#### Features:
 - Connects via female headers to the Edge board (shield)
 - Has a FFC 40 pin connector for OGBA LCD connector. Need Type-B Cable (Reverse) vvv=======^^^
 - Has a FFC 32 pin connector for OGBA LCD connector. Need Type-B Cable (Reverse) vvv=======^^^
@@ -25,11 +27,11 @@ If you wish to contribute, see something wrong or want to add a feature please m
 |R1			|2.2K 0805						|
 |R2			|1K 0805						|
 |R3, R4		|10K 0805						|
-|U1			|LM1117F-adj SOT89-3			|
-|U2,U3		|74HC595 TSSOP16				|
+|U1			|AMS1117-ADJ SOT223-3			|
+|U2,U3		|74HC595 SOIC-16				|
 |U4			|SNES 7Pin						|
 |U5			|ATMEGA328p-AU					|
-|SW1		|XKB-TS-1185EC-C-D-B			|
+|SW1		|Push Button THT 6mm			|
 |J2			|JUSHUO AFC07-S32FCC-00			|
 |J3			|JUSHUO AFC07-S34FCC-00			|
 |J4			|JUSHUO_AFC07-S16FCC-00			|
